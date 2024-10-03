@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+
+        body{
+            background-color:rgb(248, 248, 246);
+        }
+        header{
+            background-image:url("/images/header_website.jpg");
+            background-size:cover;
+            background-position:center;
+            color:rgba(255, 254, 254, 0.727);
+            text-align: center;
+            padding:100px 0;
+        }
+        a{
+            color: antiquewhite;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Eats</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../mywebsite copy /css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class ="navbar-brand" href="../mywebsite copy /index.html">
+                <img src="../mywebsite copy /images/icon.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                Menu 
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="../mywebsite copy /index.html">Home</a>
+                    <a class="nav-item nav-link active" href="../mywebsite copy /html/subscribe.html">Subscribe</a>
+                    <a class="nav-item nav-link active" href="../mywebsite copy /html/about.html">About</a>
+                    <a class="nav-item nav-link active" href="../mywebsite copy /html/recipes.html">Recipes</a>
+                    <a class="nav-item nav-link active" href="../mywebsite copy /html/contactus.html">Contact Us</a>
+                </div>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+                <div>
+                    <button type="button" class="btn btn-light">
+                        Notifications <span class="badge badge-light">4</span>
+                    </button>
+                </div>      
+            </div>   
+        </nav>
+        <div>
+            <h1>Healthy Eats</h1>
+            <p>A platform where you learn about healthy meals</p>
+        </div>
+    </header>
+
+    <section>
+        <h1>Healthy Meals</h1>
+        <table>
+            <tr>
+                <td>
+                    <div class="card" style="width:300px" >
+                        <img class="card-img-top" src="../mywebsite copy /images/shrimp.jpg" alt="Card image">
+                        <div class="card-body">
+                          <h4 class="card-title">Shrimp Pasta</h4>
+                          <p class="card-text">Here we will show you how to make a shrimp pasta meal at an affordable price.</p>
+                          <a href="../mywebsite copy /html/recipes.html" class="btn btn-primary">More Recipes</a>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="card" style="width:300px">
+                        <img class="card-img-top" src="../mywebsite copy /images/stew.jpg" alt="Card image">
+                        <div class="card-body">
+                          <h4 class="card-title">Beef Stew</h4>
+                          <p class="card-text">A recipe on how to bake a bowl of beef stew using healthy ingredients.</p>
+                          <a href="../mywebsite copy /html/recipes.html" class="btn btn-primary">More Recipes</a>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="card" style="width:300px">
+                        <img class="card-img-top" src="../mywebsite copy /images/chicken_skewers.jpg" alt="Card image">
+                        <div class="card-body">
+                          <h4 class="card-title">Chicken Skewers</h4>
+                          <p class="card-text">This is an easy to follow recipe on how to make healthy chicken skewers.</p>
+                          <a href="../mywebsite copy /html/recipes.html" class="btn btn-primary">More Recipes</a>
+                        </div>
+                    </div> 
+                </td>
+            </tr>
+             <tr>
+                <td colspan="3">
+                    <p>Healthy meals might seem like tedious and difficults tasks. However i invite you today to accompany me on this journey of 
+                        finding easy to follow recipes that will help you start a more healthy living style. Suscribe today and get daily 
+                        emails containing an easy recipe for that day's dinner.</p>
+                </td>
+             </tr>
+             <div>
+                <h3 id="firstLine">Check Out These Recent Recipes!</h3>
+                <a href = "../mywebsite copy /html/recipes.html">
+                    <button type="button">
+                        Recipes Here!
+                    </button>
+                </a>
+                <ul id="RecentRecipes" >
+                    <li>Pumpkin Pancakes</li>
+                    <li>Shrimp Pasta</li>
+                    <li>Chicken Skewer</li>
+
+                </ul>
+             </div>
+        </table>
+    </section>
+    <footer>
+        <p>©2023 Created by Maria Granados</p>
+        <a href="#" class="notification">
+            <span>Subscribe now</span>
+            <span class="badge">3</span>
+          </a>
+    </footer>
+    
+<script src="../mywebsite copy /javascript/script.js"></script>   
+</body>
+</html>
+

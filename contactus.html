@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background-color: rgb(248, 240, 230);
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Eats</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class ="navbar-brand" href="../index.html">
+                <img src="../images/icon.png" width="30" height="30" class="d-inline-block align-top" alt="icon image">
+                Menu 
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="../index.html">Home</a>
+                    <a class="nav-item nav-link active" href="../html/subscribe.html">Subscribe</a>
+                    <a class="nav-item nav-link active" href="../html/about.html">About</a>
+                    <a class="nav-item nav-link active" href="../html/recipes.html">Recipes</a>
+                    <a class = "nav-item nav-link active" href="../html/contactus.html">Contact Us</a>
+                </div>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+                <div>
+                    <button type="button" class="btn btn-light">
+                        Notifications <span class="badge badge-light">4</span>
+                    </button>
+                </div>      
+            </div>   
+        </nav>
+
+        <h1>Healthy Recipes</h1>
+        <p>In this page, i will be sharing some of my favourite recipes, such as:</p>
+        <dl>
+            <dt>Pumpking Pancakes</dt>
+             <dd>Learn to make healthy pancakes using pumpkins.</dd>
+            <dt>Prawn and harissa spaghetti</dt>
+             <dd>Try our spaguetti dinner for two, with king prawns and harissa dressing.</dd>
+            <dt>One pot chicken and rice</dt> 
+             <dd>Make a wholesome chicken dinner for all the family</dd>
+        </dl>
+    </header>
+    
+    <section>
+        <h2>Enter your details below to contact us!</h2>
+
+        <form onsubmit = "return validateForm()">
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name" placeholder="Your name" ><br><br>
+            <label for="email">Email</label><br>
+            <input type="text" id="email" name="email" placeholder="john@example.com" pattern=".+@gmail\.com" ><br><br>
+            <label for="message">Message</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" placeholder="Type Your Message Here"></textarea>
+
+
+            <input type="submit" value="Submit">
+
+        </form>
+    </section>
+
+
+    <footer>
+        <p>©2023 Created by Maria Granados</p>
+        <a href="#" class="notification">
+            <span>Subscribe now</span>
+            <span class="badge">3</span>
+          </a>
+    </footer>
+    <script src="../javascript/script.js"></script>
+</body>
+
+
+</html>

@@ -1,0 +1,157 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+body{
+    background-color:rgb(248, 248, 246);
+
+
+}
+header{
+    background-image:url("../images/header_website.jpg");
+    background-size:cover;
+    background-position:center;
+    color:rgba(255, 254, 254, 0.727);
+    text-align: center;
+    padding:100px 0;
+}
+title{
+    font-family: 'Young Serif', serif;
+}
+
+
+
+h1{
+    font-family:'Young Serif', serif ;
+}
+
+#headerrecipes{
+    font-family: 'Young Serif', serif ;
+}
+
+#RecentRecipes {
+    margin: 20px 60px 80px 20px;
+    background-color: blanchedalmond;
+    font-size: small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-style: dotted;
+}
+
+#firstLine {
+    text-decoration: underline;
+}
+
+#Index1 {
+    border-style:double;
+    background-color: rgb(157, 191, 221);
+    color: aliceblue;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#image1 {
+    border-radius: 8px;
+    border-style: groove;
+}
+
+#Index2 {
+    border-style: double;
+    color: aliceblue;
+    text-align: center;
+    text-decoration: underline;
+    background-color: rgb(157, 191, 221);
+}
+
+#Image2 {
+    border-radius: 8px;
+    border-style: groove;
+}
+
+#Index3 {
+    color: aliceblue;
+    border-style: double;
+    text-align: center;
+    text-decoration: underline;
+    background-color: rgb(157, 191, 221);
+}
+
+#image3 {
+    border-radius: 8px;
+    border-style: groove;
+}
+a{
+    color: antiquewhite;
+}
+.navbar {
+    background-color:blanchedalmond;
+    overflow: hidden;
+}
+
+.navbar a {
+    float:inline-start;
+    display: block;
+    color:black;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.notification {
+    background-color: #555;
+    color: white;
+    text-decoration: none;
+    padding: 15px 26px;
+    position: relative;
+    display: inline-block;
+    border-radius: 2px;
+  }
+  
+  .notification:hover {
+    background: red;
+    transition-duration: 0.5s;
+  }
+  
+  .notification .badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+  }
+img{
+    transition: transform 0.3s ease-in-out;
+}
+img:hover{
+    transform: scale(1.1);
+    box-shadow: 3px 3px 5px #888;
+}
+
+
+footer{
+    background-color:white;
+    color:black;
+    text-align:center;
+    padding: 10px;
+}
+
+#button1{
+    font-size: 30px;
+    width: 15vw;
+    height: 15vh;
+    background-color: lavender;
+    border-radius: 10px;
+    border-color: lightblue;
+}
+
+button{
+    font-family: 20px;
+    width: 10vw;
+    height: 10vw;
+    border-radius:10px;
+}
+  
+button:hover{
+    background-color: lightpink;
+    transition: 2s;
+}  
+

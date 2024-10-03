@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background-color: rgb(248, 240, 230);
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Eats</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class ="navbar-brand" href="../index.html">
+                <img src="../images/icon.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                Menu 
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="../index.html">Home</a>
+                    <a class="nav-item nav-link active" href="../html/subscribe.html">Subscribe</a>
+                    <a class="nav-item nav-link active" href="../html/about.html">About</a>
+                    <a class="nav-item nav-link active" href="../html/recipes.html">Recipes</a>
+                    <a class ="nav-item nav-link active" href="../html/contactus.html">Contact Us</a>
+                </div>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+                <div>
+                    <button type="button" class="btn btn-light">
+                        Notifications <span class="badge badge-light">4</span>
+                    </button>
+                </div>      
+            </div>   
+        </nav>
+        
+        <h1>Healthy Recipes</h1>
+        <p>In this page, i will be sharing some of my favourite recipes, such as:</p>
+        <dl>
+            <dt>Pumpking Pancakes</dt>
+             <dd>Learn to make healthy pancakes using pumpkins.</dd>
+            <dt>Prawn and harissa spaghetti</dt>
+             <dd>Try our spaguetti dinner for two, with king prawns and harissa dressing.</dd>
+            <dt>One pot chicken and rice</dt> 
+             <dd>Make a wholesome chicken dinner for all the family</dd>
+        </dl>
+    </header>
+
+    
+ <h1>Our recipes</h1>
+ <p>Check out these recipes!</p>
+
+ <div id="demo" class="carousel slide" data-ride="carousel">
+
+   <!--The indicators-->
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
+  
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../images/carousel1.jpg" alt="First slideshow" width="1280" height="400">
+        <div class="carousel-caption">
+          <p>Learn how to make healthy recipes with us!</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../images/carousel2.jpg" alt="Second slideshow" width="1280" height="400">
+        <div class="carousel-caption">
+          <p>Subscribe to our newsletter for daily updates!</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../images/carousel3.jpg" alt="Third slideshow" width="1280" height="400">
+        <div class="carousel-caption">
+          <p>Check out our online cookbooks!</p>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  
+  </div>
+
+ 
+    <section>   
+         <h2 id="headerrecipes">In this blog, i'll show you how to make:</h2>
+         <ul class="list-group">
+          <li class="list-group-item1">Pumpkin Pancakes</li>
+          <li class="list-group-item1">Shrimp Pasta</li>
+          <li class="list-group-item1">Chicken Skewers</li>
+          <li class="list-group-item">Miso Soup</li>
+          <li class="list-group-item">Cheesy Broccoli Pasta</li>
+          <li class="list-group-item">Breakfast Cookies</li>
+         </ul>
+         <button onclick="changeAll()">Click here if you read first page</button>
+
+
+        <h3>Miso Soup</h3>
+         <img src="../images/misosoup.jpg"alt="picture of miso soup"width="200"height="150">
+         <ol>
+            <li>This simple 15-minute, 1 pan version begins with heating the vegetable broth.The miso paste is whisked into a little hot water to get the clumps out.</li>
+            <li>The result is a smooth and liquidy paste that gets added once the soup is removed from the heat. Set aside.</li>
+            <li>Next the chard, green onion, nori, and tofu are cooked in the broth briefly. Then it’s time to remove from the heat, add in the miso, taste test, and adjust the saltiness. And that's it! I hope you enjoyed this easy to follow recipe.</li>
+         </ol>
+    
+        <h3>Cheesy Broccoli pasta</h3>
+         <img src="../images/brocpasta.jpg"alt="picture of cheesy broccoli pasta"width="200"height="150">
+         <ol>
+           <li>Cook the pasta, adding the broccoli for the final 4-5 mins and cooking until tender. Drain well, then heat the grill.</li>
+           <li>Heat the butter in a saucepan and stir in the flour. Cook for 1 min, then gradually add the milk, stirring well between each addition. Bring to the boil, stirring, then simmer for 2 mins, before stirring in the mustard, half the cheese and seasoning. </li>
+           <li>Mix the pasta and broccoli into the sauce and spoon into an ovenproof dish. Scatter over the remaining cheese and place under a hot grill for 3-4 mins until golden and bubbling.</li>
+         </ol>
+
+        <h3>Breakfast Cookies</h3>
+         <img src="../images/cookies.jpg"alt="picture of breakfast cookies"width="200"height="150">
+         <ol>
+            <li>Mash the banana in the bowl until they are smooth and creamy.  Next add the almond butter, maple syrup, salt, and ground cinnamon.  Whisk all these ingredients together.</li>
+            <li>Stir in the chopped prunes, dried cranberries, pepitas, and chopped almonds until they are well combined with the almond butter-banana mixture.  Add the rolled oats and stir until well combined.</li>
+            <li>Line two half-sized baking sheets with parchment paper or Silpat.  Each cookie is 4 tablespoons or 1/4 cup of dough. I recommend using a 1/4 cup cookie scoop or measuring cup to measure the dough.   </li>
+            <li>Place 6 cookies on each prepared baking sheet.  Lightly press down on the cookies to flatten them to the thickness you want.   Bake the cookies for about 15-17 minutes.  But use your eyes rather than a timer.  When the cookies are brown around the edges remove them from the oven.</li>
+            <li>Cool them on the baking sheet for 5 minutes then move them to a wire rack to finish cooling.</li>
+         </ol>
+    </section>
+
+    <nav aria-label="Search recipes pages.">
+        <ul class="pagination">
+          <li class="page-item"><a class="page-link" href="../html/recipes.html">Previous</a></li>
+          <li class="page-item"><a class="page-link" href="../html/morerecipes.html">Next</a></li>
+        </ul>
+    </nav>
+    
+<hr>
+<footer>
+    <p>©2023 Created by Maria Granados</p>
+    <a href="#" class="notification">
+        <span>Subscribe now</span>
+        <span class="badge">3</span>
+      </a>
+</footer>
+
+<script src="../javascript/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background-color: antiquewhite;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Eats</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class ="navbar-brand" href="../index.html">
+                <img src="../images/icon.png" width="30" height="30" class="d-inline-block align-top" alt="icon">
+                Menu 
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="../index.html">Home</a>
+                    <a class="nav-item nav-link active" href="../html/subscribe.html">Subscribe</a>
+                    <a class="nav-item nav-link active" href="../html/about.html">About</a>
+                    <a class="nav-item nav-link active" href="../html/recipes.html">Recipes</a>
+                    <a class ="nav-item nav-link active" href="../html/contactus.html">Contact Us</a>
+                </div>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>   
+                <div>
+                    <button type="button" class="btn btn-light">
+                        Notifications <span class="badge badge-light">4</span>
+                    </button>
+                </div>     
+            </div>   
+        </nav>
+        <img src="../images/abouthtml.jpg" alt="Image containing healthy foods"width="1200"height="400"/>
+        <h1>About Us</h1>
+        <div>
+            <p>Welcome to Healthy Eats! My name is Maria, and I created Healthy Eats to celebrate how nourishing, fun, and delicious cooking with seasonal fruits and vegetables can be. 
+                I hope that the recipes here inspire you to try cooking a new vegetable, or try cooking a familiar vegetable in a new way. You’ll find a host of inventive vegetarian recipes for breakfast, lunch, and dinner, but I also want Love and Lemons to be a resource for you. 
+                We have guides to working with vegetables ranging from spaghetti squash to asparagus and tips for cooking plant-based basics like quinoa, rice, and lentils.</p>
+        </div>
+    </header>
+    <main>
+        <h1>Frequently Asked Questions</h1>
+
+
+        <div class="accordion" id="accordionExample">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    Do you have vegan or gluten free recipes?
+                  </button>
+                </h5>
+              </div>
+          
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                    Many of our recipes are vegan, gluten-free, or both, and if theyre not, we often offer vegan or gluten-free variations.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    There are so many recipes on your site! Where do I start?
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+                    You can sign up to our email list. Our newest recipes will go directly to your inbox!
+                    <a href="../html/subscribe.html">
+                        <button type="button">
+                                Click Me!
+                        </button>
+                    </a>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Are the meals expensive to make?
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body">
+                 Absolutely not, i made my company taking into consideration the people that may not have as much time and mony to prepare healthy meals. In my blogs i will be sharing certain shops that sell good quality products for a low price.
+                </div>
+              </div>
+            </div>
+          </div>
+        <h3>You can find us here!</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1908.2094522595146!2d-6.261806795321275!3d53.341892315069224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e9ba69e8f13%3A0xc603dec99ee0bba3!2s60%20Dawson%20St%2C%20Dublin%2C%20D02%20K330!5e0!3m2!1sen!2sie!4v1697121832488!5m2!1sen!2sie" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </main>
+
+<hr>
+<footer>
+    <p>©2023 Created by Maria Granados</p>
+    <a href="#" class="notification">
+        <span>Subscribe now</span>
+        <span class="badge">3</span>
+      </a>
+</footer>
+<script src="../javascript/script.js"></script>
+</body>
+</html>
